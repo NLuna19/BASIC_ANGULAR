@@ -1,4 +1,15 @@
 {
-  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=827846
-  "recommendations": ["angular.ng-template"]
+  "recommendations": [
+    "Angular.ng-template",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "bradlc.vscode-tailwindcss",
+    "ms-vscode.vscode-typescript-next",
+    "usernamehw.errorlens",
+    "eamodio.gitlens",
+    "ms-azuretools.vscode-docker",
+    "postman.postman-for-vscode",
+    "GitHub.copilot",
+    "ms-vscode.makefile-tools"
+  ]
 }
