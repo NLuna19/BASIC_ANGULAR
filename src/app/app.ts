@@ -1,12 +1,19 @@
-import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 })
 export class App {
-  protected readonly title = signal('basic-angular');
+  title = 'basic-angular';
+
+  navItems = [
+    { title: 'Explore the Docs', link: 'https://angular.io' },
+    { title: 'Learn with Tutorials', link: 'https://angular.io/guide/architecture' },
+    { title: 'CLI Docs', link: 'https://angular.io/cli' },
+    { title: 'Angular Language Service', link: 'https://angular.io/guide/language-service' },
+    { title: 'Angular DevTools', link: 'https://angular.io/guide/devtools' },
+    { title: 'Components & Templates', link: 'https://angular.io/guide/components-overview' },
+  ];
 }
